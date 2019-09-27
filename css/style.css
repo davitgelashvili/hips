@@ -662,8 +662,71 @@ div[slider] > input[type=range]::-ms-tooltip {
   width: 100%;
   height: 100%;
 }
+.noteworthy{
+  width: 100%;
+  height: 100vh;
+  max-height: 340px;
+  position: relative;
+  margin-bottom: 26px;
+  margin-top: 20px;
+}
+.noteworthy img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: 0;
+  opacity: 0.5;
+}
+.noteworthy h1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  color: #fff;
+  font-size: 36px;
+  font-family: tbcdin_mtavruli_medium_0;
+  letter-spacing: 3px;
+}
+.noteworthy.dangerous:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #5813c4;
+  opacity: 0.5;
 
-
+}
+.noteworthy.dontpay:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #d70d0d;
+  opacity: 0.5;
+}
+.noteworthy.checked:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffed00;
+  opacity: 0.5;
+}
 .compani-info p{
   font-size: 10px;
   font-family: tbcdin_mtavruli_medium_0;
@@ -691,8 +754,8 @@ div[slider] > input[type=range]::-ms-tooltip {
 }
 .rate-dislake, 
 .rate-like{
-  color: #fff;
-  font-size: 12px;
+  color: #fff !important;
+  font-size: 12px !important;
   height: 20px;
   padding: 3px;
   box-sizing: border-box;
@@ -702,9 +765,11 @@ div[slider] > input[type=range]::-ms-tooltip {
 }
 .rate-dislake p, 
 .rate-like p{
-  font-size: 12px;
+  width: auto !important;
+  margin: 0 !important;
+  font-size: 12px !important;
   font-family: tbcdin_mtavruli_medium_0;
-
+  color: #fff !important;
 }
 .statistic{
   display: flex;
@@ -757,6 +822,7 @@ div[slider] > input[type=range]::-ms-tooltip {
   color: #fff;
   font-family: tbcdin_mtavruli_medium_0;
   font-size: 12px;
+  text-align: center;
 }
 
 .item-table-in{
@@ -775,7 +841,10 @@ background: #CCCCCC;
   font-size: 12px;
   text-align: center;
 }
-
+.item-table-in > div.item-table-in-investition{
+  background: #eb5d38;
+  color: #fff;
+}
 .main-item-footer-menu{
   display: flex;
   justify-content: space-around;
@@ -794,6 +863,7 @@ background: #CCCCCC;
   justify-content: flex-end;
   flex-wrap: wrap;
   margin-top: 15px;
+  margin-bottom: 30px;
 }
 .avatar-icon {
   border-radius: 50%;
@@ -916,19 +986,49 @@ clip-path: polygon(0 0, 70% 0, 97% 100%, 0 100%);
   max-height: 30px;
   margin-right: 5px;
 }
+.footer-section-item {
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+.footer-section-item ul {
 
+}
+.footer-section-item ul li{
+  list-style: disc;
+  margin-left: 20px;
 
-
-
-
-
-
-
-
-
-
-.test{
-  width: 100%;
-  height: 1800px;
-  position: relative;
+}
+.footer-section-item ul li a {
+  font-size: 14px;
+  color: #6c5c53;
+  font-family: tbcdin_mtavruli_medium_0;   
+  font-weight: 500;
+}
+.footer-section-item.footer-login{
+  width: 263px;
+}
+.footer-section-item.footer-menu{
+  width: 222px;
+}
+.footer-section-item.footer-logo{
+  width: 224px;
+}
+.footer-section-item p {
+  font-size: 12px;
+  color: #6c5c53;
+  font-family: tbcdin_nusxuri_medium_0;   
+  font-weight: 500;
+  margin-top: 10px;
+  width: 80%;
+}
+.footer-section-item h1 {
+  font-size: 18px;
+  color: #6c5c53;
+  font-family: tbcdin_mtavruli_medium_0;   
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.footer-section-item img {
+  width: 80%;
 }
