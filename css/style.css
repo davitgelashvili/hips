@@ -724,6 +724,9 @@ div[slider] > input[type="range"]::-ms-tooltip {
   font-size: 22px;
   color: #fff;
 }
+.filter-slider-icon img {
+  height: 100%;
+}
 .search form {
   display: flex;
   width: 100%;
