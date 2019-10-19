@@ -29,5 +29,15 @@ $(document).ready(function () {
         $('.left-top-body.second').removeClass('active');
     })
 
+    $('.mob-menu').click(function () {
+        if ($(this).hasClass('active')) {
+            $(this).removeClass('active');
+            $('.menu').css('display', 'none');
+        }else{
+            $('.menu').css('display', 'flex');
+            $(this).addClass('active');
+        }
+    });
+
 
 });

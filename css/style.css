@@ -187,6 +187,23 @@ header {
   padding-left: 5px;
   z-index: 2;
 }
+.mob-menu{
+  display: none;
+  background-color: #eee6c7;
+  height: 32px;
+  cursor: pointer;
+}
+.mob-menu i {
+  color: #6b5b53;
+  font-size: 18px;
+  margin-left: 15px;
+}
+.mob-menu a{
+  color: #6b5b53;
+  font-size: 18px;
+  font-family: tbcdin_mtavruli_medium_0;
+  margin-left: 15px;
+}
 .menu {
   background: #eee6c7;
   width: 100%;
@@ -780,6 +797,8 @@ div[slider] > input[type="range"]::-ms-tooltip {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  width: 100%;
+  float: left;
 }
 .main-item--banners-item {
   width: 300px;
@@ -794,6 +813,8 @@ div[slider] > input[type="range"]::-ms-tooltip {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  width: 100%;
+  float: left;
 }
 .main-item-banner-item {
   width: 468px;
@@ -805,12 +826,16 @@ div[slider] > input[type="range"]::-ms-tooltip {
 }
 .main-item {
   background: #eee6c7;
-  padding: 10px;
+  padding: 10px 0;
   margin-top: 30px;
+  width: 100%;
+  float: left;
 }
 .main-item-right {
-  width: calc(100% - 218px);
+  width: calc(100% - 217px);
   float: left;
+  position: relative;
+  margin-bottom: 15px;
 }
 .main-item-head {
   display: flex;
@@ -877,7 +902,7 @@ div[slider] > input[type="range"]::-ms-tooltip {
   background-image: linear-gradient(0deg, #eb5137 0%, #eb6e38 100%);
   position: absolute;
   top: -10px;
-  right: 5px;
+  right: -15px;
   -webkit-clip-path: polygon(0 0, 100% 100%, 100% 0);
   clip-path: polygon(0 0, 100% 100%, 100% 0);
   display: flex;
@@ -910,6 +935,8 @@ div[slider] > input[type="range"]::-ms-tooltip {
   position: relative;
   margin-bottom: 26px;
   margin-top: 20px;
+  width: 100%;
+  float: left;
 }
 .noteworthy img {
   width: 100%;
@@ -1084,6 +1111,8 @@ div[slider] > input[type="range"]::-ms-tooltip {
 }
 .item-table {
   margin-top: 10px;
+  width: 100%;
+  float: left;
 }
 .item-table-head {
   background: #6c5c53;
@@ -1125,6 +1154,8 @@ div[slider] > input[type="range"]::-ms-tooltip {
   display: flex;
   justify-content: space-around;
   margin-top: 10px;
+  width: 100%;
+  float: left;
 }
 .main-item-footer-menu li a {
   color: #484848;
@@ -1384,7 +1415,7 @@ div[slider] > input[type="range"]::-ms-tooltip {
   font-weight: 500;
 }
 .footer-section-item.footer-login {
-  width: 263px;
+  width: 262px;
 }
 .footer-section-item.footer-menu {
   width: 222px;
@@ -1460,6 +1491,7 @@ div[slider] > input[type="range"]::-ms-tooltip {
   align-items: center;
   justify-content: center;
   margin: 30px 0;
+  float: left;
 }
 .page-navigation li {
   margin-right: 10px;
