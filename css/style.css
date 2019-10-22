@@ -187,7 +187,7 @@ header {
   padding-left: 5px;
   z-index: 2;
 }
-.mob-menu{
+.mob-menu {
   display: none;
   background-color: #eee6c7;
   height: 32px;
@@ -198,7 +198,7 @@ header {
   font-size: 18px;
   margin-left: 15px;
 }
-.mob-menu a{
+.mob-menu a {
   color: #6b5b53;
   font-size: 18px;
   font-family: tbcdin_mtavruli_medium_0;
@@ -1019,6 +1019,13 @@ div[slider] > input[type="range"]::-ms-tooltip {
   margin-bottom: 7px;
   font-weight: bold;
 }
+.cripto-item-out {
+  padding: 15px;
+  float: left;
+  width: 100%;
+  background: #eee6c7;
+  margin-top: 20px;
+}
 .cripto-item {
   display: flex;
 }
@@ -1072,6 +1079,13 @@ div[slider] > input[type="range"]::-ms-tooltip {
   color: #fff !important;
   padding: 4px;
 }
+.statistic-out {
+  padding: 15px;
+  float: left;
+  width: 100%;
+  background: #eee6c7;
+  margin-top: 20px;
+}
 .statistic {
   display: flex;
   height: 17px;
@@ -1108,6 +1122,13 @@ div[slider] > input[type="range"]::-ms-tooltip {
 }
 .stat-item.red {
   background: #0fcd0f;
+}
+.item-table-out {
+  padding: 15px;
+  float: left;
+  width: 100%;
+  background: #eee6c7;
+  margin-top: 20px;
 }
 .item-table {
   margin-top: 10px;
