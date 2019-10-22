@@ -824,6 +824,15 @@ div[slider] > input[type="range"]::-ms-tooltip {
   width: 100%;
   height: 100%;
 }
+.main-item-text {
+  width: 100%;
+  font-size: 10px;
+  color: #6c5c53;
+  font-family: tbcdin_mtavruli_medium_0;
+  font-weight: 500;
+  margin-top: 10px;
+  float: left;
+}
 .main-item {
   background: #eee6c7;
   padding: 10px 0;
@@ -1028,6 +1037,8 @@ div[slider] > input[type="range"]::-ms-tooltip {
 }
 .cripto-item {
   display: flex;
+  float: left;
+  width: 100%;
 }
 .cripto-item > div {
   width: 20px;
@@ -1093,6 +1104,8 @@ div[slider] > input[type="range"]::-ms-tooltip {
   background: #fff;
   overflow: hidden;
   margin-top: 10px;
+  float: left;
+  width: 100%;
 }
 .statistic-items {
   width: calc(100% - 62px);
@@ -1532,4 +1545,99 @@ div[slider] > input[type="range"]::-ms-tooltip {
 }
 .page-navigation li a:hover {
   color: #eb5238;
+}
+
+/* page two */
+.h-tag {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  width: 100%;
+  float: left;
+}
+.h-tag li {
+  margin-right: 8px;
+}
+.h-tag li a {
+  font-size: 10px;
+  color: #eb5100;
+  font-family: tbcdin_mtavruli_medium_0;
+  font-weight: 500;
+}
+.section-item-title {
+  font-size: 14px;
+  color: #6c5c53;
+  font-family: tbcdin_mtavruli_medium_0;
+  font-weight: 500;
+  float: left;
+  width: 100%;
+}
+.share-section-out {
+  padding: 15px;
+  float: left;
+  width: 100%;
+  background: #eee6c7;
+  margin-top: 20px;
+}
+.share-section {
+  float: left;
+  width: 100%;
+}
+.share-section-item {
+  float: left;
+}
+.item-full-statistic {
+  padding: 15px;
+  float: left;
+  width: 100%;
+  background: #eee6c7;
+  margin-top: 20px;
+}
+.item-full-static {
+  width: 100%;
+  float: left;
+}
+.full-static--item {
+  width: calc(100% / 4);
+  float: left;
+  position: relative;
+  margin-right: 7px;
+  padding-right: 7px;
+}
+.full-static--item:before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 90%;
+  transform: translateY(50%);
+  bottom: 50%;
+  background: #d8cfb4;
+  border-right: 1px solid #f9f0cc;
+  right: 0;
+}
+.full-static--item-info {
+  display: flex;
+  justify-content: space-between;
+}
+.full-static--item-info span {
+  font-size: 10px;
+  font-family: tbcdin_mtavruli_medium_0;
+  color: #6c5c53;
+  font-weight: bold;
+}
+.full-static--item-info p {
+  font-size: 10px;
+  font-family: tbcdin_mtavruli_medium_0;
+  color: #ff7400;
+  margin-bottom: 7px;
+  font-weight: bold;
+}
+.full-static--item-info-text {
+  width: 80%;
+  float: left;
+}
+.full-static--item-rating {
+  width: 21px;
+  height: 21px;
+  float: left;
 }
